@@ -1,9 +1,6 @@
 // const MongoClient = require('mongodb').MongoClient;
 const {MongoClient,ObjectID} = require('mongodb');
 
-var obj = new ObjectID();
-console.log(obj);
-
 /*var user =[{
 	name: 'Avinash',
 	age: 25
@@ -20,7 +17,7 @@ MongoClient.connect('mongodb://localhost:27017/TodoApp',(err, db) => {
 	}
 	console.log('Connected to MongoDB server');
 
-/*	db.collection('Todos').insertOne({
+	db.collection('Todos').insertOne({
 		text: 'Something to do',
 		completed: false
 	},(err, result) => {
@@ -29,7 +26,7 @@ MongoClient.connect('mongodb://localhost:27017/TodoApp',(err, db) => {
 		}
 
 		console.log(JSON.stringify(result.ops , undefined ,2));	
-	});*/
+	});
 
 /*	db.collection('Users').insertOne({
 		name: 'Avinash',
