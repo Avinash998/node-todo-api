@@ -34,13 +34,13 @@ Todo.findOne({
 
 //User FindById
 
-var id = '5b59f403c68dba2023699e44';
+var id_user = '5b59f403c68dba2023699e44';
 
-if(!ObjectID.isValid(id)){
+if(!ObjectID.isValid(id_user)){
 	console.log('User ID is not valid');
 }
 
-User.findById(id).then((user) => {
+User.findById(id_user).then((user) => {
 	if(!user){
 		return console.log('User id doesn\'t Exists');
 	}
