@@ -14,7 +14,7 @@ var options = {
   // If not connected, return errors immediately rather than waiting for reconnect
   bufferMaxEntries: 0
 };
-mongoose.connect(process.env.PROD_MONGODB||, options);
+mongoose.connect(process.env.PROD_MONGODB, options);
 
 
 module.exports = {
