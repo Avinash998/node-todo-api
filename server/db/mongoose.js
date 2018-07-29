@@ -14,7 +14,7 @@ var options = {
   // If not connected, return erros immediately rather than waiting for reconnect
   bufferMaxEntries: 0
 };
-mongoose.connect(process.env.PROD_MONGODB, options);
+mongoose.connect(/*process.env.PROD_MONGODB*/'mongodb://dudesum:dudesum998@ds257851.mlab.com:57851/todo-app', options);
 
 
 module.exports = {
