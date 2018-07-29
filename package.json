@@ -9,8 +9,9 @@
     "start": "node server/server.js"
   },
   "engines": {
-    "node": "8.9.3"
- },
+    "node": "8.9.3",
+    "npm": "5.7.1"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
