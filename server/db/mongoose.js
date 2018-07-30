@@ -1,13 +1,13 @@
 var mongoose = require('mongoose');
 
-/*mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://dudesum:dudesum998@ds257851.mlab.com:57851/todo-app'||process.env.MONGOLAB_URI||'mongodb://localhost:27017/TodoApp');
-*/
+mongoose.Promise = global.Promise;
+mongoose.connect(process.env.MONGOLAB_URI||'mongodb://localhost:27017/TodoApp');
+
 
 /*mongoose.Promise = global.Promise;
 mongoose.connect('mongodb://dudesum:dudesum998@ds257851.mlab.com:57851/todo-app');*/
 
-mongoose.Promise = global.Promise;
+/*mongoose.Promise = global.Promise;
 var options = {
   useMongoClient: true,
   autoIndex: false, // Don't build indexes
@@ -18,7 +18,7 @@ var options = {
   bufferMaxEntries: 0
 };
 mongoose.connect('mongodb://dudesum:dudesum998@ds257851.mlab.com:57851/todo-app', options);
-
+*/
 
 module.exports = {
 	mongoose
