@@ -7,7 +7,7 @@ mongoose.connect('mongodb://dudesum:dudesum998@ds257851.mlab.com:57851/todo-app'
 /*mongoose.Promise = global.Promise;
 mongoose.connect('mongodb://dudesum:dudesum998@ds257851.mlab.com:57851/todo-app');*/
 
-
+mongoose.Promise = global.Promise;
 var options = {
   useMongoClient: true,
   autoIndex: false, // Don't build indexes
