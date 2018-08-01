@@ -1,5 +1,5 @@
 // var mongoose = require('mongoose');
-require('config/config.js');
+require('./config/config.js');
 
 const _ = require('lodash');
 const express = require('express');
