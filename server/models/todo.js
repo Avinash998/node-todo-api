@@ -1,3 +1,4 @@
+console.log('Inside server/models/todo.js');
 var mongoose = require('mongoose');
 
 var Todo = mongoose.model('Todo',{

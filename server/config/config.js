@@ -1,3 +1,4 @@
+console.log('Inside server/config/config.js');
 var env = process.env.NODE_ENV || 'development';
 console.log('env **** ',env);
 

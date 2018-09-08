@@ -1,3 +1,4 @@
+console.log('Inside server/db/mongoose.js');
 var mongoose = require('mongoose');
 
 mongoose.Promise = global.Promise;
